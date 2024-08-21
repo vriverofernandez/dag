@@ -12,7 +12,7 @@ This DAG downloads measures from the client's FTP server.
 
 import pendulum
 
-from ingest.stg.measures.base_dag import MeasureSTGDag
+from base_dag import MeasureSTGDag
 
 MeasureSTGDag(
     "0142-stg-measures-ingest",
